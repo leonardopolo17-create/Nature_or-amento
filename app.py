@@ -294,7 +294,6 @@ def gerar_pdf(orc, fotos_paths):
     if fotos_paths: pg_galeria(cv, fotos_paths)
     full_img(cv, os.path.join(ASSETS,'pg_entregamos.png')); cv.showPage()
     pg_valores(cv, orc, anc, total_ind, economia)
-    pg_promocao(cv, orc, anc, total_ind)
     pg_adicionais(cv, adics_opcionais)
     pg_fim(cv, orc, foto_fim)
 
